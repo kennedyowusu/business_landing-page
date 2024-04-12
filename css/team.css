@@ -1,0 +1,35 @@
+.team-box {
+ background-color: #fff !important;
+ border-radius: 5px;
+ box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+ display: flex;
+ flex-direction: column;
+ min-width: 0;
+ word-wrap: break-word;
+ border: .0625rem solid rgba(0, 0, 0, .08);
+ transition: transform .2s linear, box-shadow .2s linear;
+ top: 0!important;
+}
+
+.team-box:hover {
+ -webkit-transform: translateY(-4px)!important;
+ transform: translateY(-4px)!important;
+}
+
+.team-box .team-member img {
+ border-radius: 50%;
+ width: 120px;
+ height: 120px;
+}
+
+.team-social li a {
+ color: #000;
+ transition: all 0.52s;
+ line-height: 30px;
+ font-size: 14px;
+ display: inline-block;
+}
+
+.team-info p {
+ font-size: 12px;
+}
